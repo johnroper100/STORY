@@ -1,4 +1,5 @@
 # Jobs
-In these following files, you will find the jobs for the entire team.
-To find yours if you are one of the team, just click on the file that has your name on it.
+In this folder, are the tings that need to be created. Look at assets.txt for the full list.
+If you want to work on a spefic thing, put your name down next to it and you will be assigned.
+When you are finished with it, change your name to 'finished'.
 Thanks!
