@@ -7,10 +7,10 @@ Daughter - Finished
 
 Father Rig - Finished
 Mother Rig - Finished
-Son Rig - Janek
-Daughter Rig - Janek
+Son Rig - 
+Daughter Rig - 
 
-Book - Laura
+Book - 
 
 Car v1 - Finished
 Car v2 - Finished
@@ -23,19 +23,19 @@ Rigged Cloud - John
 
 Picknick Assets - Finished
 
-Mountains - Marcus
-Road - Marcus
-Combined - Marcus
+Mountains - 
+Road - 
+Combined - 
 
 Logo - Stefano
-Concept Art - Pheonix
+Concept Art - Phenix
 Storyboards - Kevin
 
-Hill Scene - Pam
+Hill Scene - 
 
 Trailer(s) - John
 
-Materials - Pixaner
+Materials - 
 
 Lighting - John
 
