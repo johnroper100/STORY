@@ -10,6 +10,8 @@ Mother Rig - Finished
 Son Rig - Janek
 Daughter Rig - Janek
 
+Book - Laura
+
 Car v1 - Finished
 Car v2 - Finished
 
