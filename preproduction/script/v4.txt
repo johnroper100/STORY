@@ -61,3 +61,6 @@ We are on a hill looking over a valley. On the other side is a castle. We see th
 SCENE 4
 SHOT 1
 We are in a magnificent castle hall that is like the hall of kings in Gondor in The Lord Of The Rings. At the end sits a king on a high throne.
+
+SHOT 2
+The King gets down from the throne and starts to look at the boy.
