@@ -43,7 +43,7 @@ Materials -
 Lighting - John
 
 Music - John
-PostProduction - John
+Post Production - John
 Credits - John
 
 Knight 1 -Jan
@@ -62,7 +62,9 @@ Throne Room -
 
 Castle -
 
-Hill Overlooking the Valley with Castle - 
+Hill -
+
+Flowers - 
 
 Horse - Laura
 
@@ -79,3 +81,7 @@ Dragon Rig -
 Princess -
 
 Princess Rig -
+
+Tree1 -
+Tree2 -
+Tree3 -
