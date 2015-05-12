@@ -94,4 +94,11 @@ SHOT 3
 We are following the boy at a sideway angle as he goes down the tunnel"
 
 SHOT 4
-The camera swings around from beside the boy to behind him as he steps out into a cave filled with gold coins with the princess at the center"
+The camera swings around from beside the boy to behind him as he steps out into a cave filled with gold coins with the princess at the center.
+
+SCENE 9
+SHOT 1
+Suddenly, the dragon appears and spurts fire at the boy who grabs the princess and runs.
+
+SHOT 2
+We are in the dragons POV as he chases the boy up the tunnel.
