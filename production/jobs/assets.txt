@@ -46,13 +46,9 @@ Music - John
 Post Production - John
 Credits - John
 
-Knight 1 -Finished
-Knight 2 -Jan
-knight 3 -Jan
+Knight - Finished
 
-Knight 1 Rig -
-Knight 2 Rig -
-knight 3 Rig -
+Knight Rig -
 
 King -
 
