@@ -7,8 +7,8 @@ Daughter - Finished
 
 Father Rig - Finished
 Mother Rig - Finished
-Son Rig - 
-Daughter Rig - 
+Son Rig - Finished
+Daughter Rig - Finished
 
 Book -
 
@@ -48,11 +48,11 @@ Credits - John
 
 Knight - Finished
 
-Knight Rig -
+Knight Rig - Allen
 
 King -
 
-King Rig -
+King Rig - Allen
 
 Throne Room -
 
@@ -64,7 +64,7 @@ Flowers -
 
 Horse - Laura
 
-Horse Rig -
+Horse Rig - Allen
 
 Forest -
 
@@ -72,11 +72,11 @@ Tower Close Up Set -
 
 Dragon -
 
-Dragon Rig -
+Dragon Rig - Allen
 
 Princess -
 
-Princess Rig -
+Princess Rig - Allen
 
 Tree1 -
 Tree2 -
