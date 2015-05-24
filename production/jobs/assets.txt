@@ -22,29 +22,9 @@ Car Rig - Finished
 
 Clouds - Finished
 
-Rigged Cloud - John
+Rigged Cloud - Finished
 
 Picknick Assets - Finished
-
-Mountains - Finished
-Road - Finished
-Combined - 
-
-Logo - Stefano
-Concept Art - Phenix
-Storyboards - Kevin
-
-Hill Scene - 
-
-Trailer(s) - John
-
-Materials - 
-
-Lighting - John
-
-Music - John
-Post Production - John
-Credits - John
 
 Knight - Finished
 
@@ -53,8 +33,6 @@ Knight Rig - Finished
 King - Jan
 
 King Rig - Allen
-
-Throne Room -
 
 Castle -
 
@@ -65,10 +43,6 @@ Flowers -
 Horse - Laura
 
 Horse Rig - Allen
-
-Forest -
-
-Tower Close Up Set -
 
 Dragon -
 
