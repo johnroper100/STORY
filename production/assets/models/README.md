@@ -1,2 +1,2 @@
 # Models
-Here are all of our models for the project.
+This is where all of the models are kept.
