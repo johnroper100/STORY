@@ -1,2 +1,2 @@
 # Postproduction
-These are all of our postproduction files includin compositin and edits.
+These are all of our postproduction files including compositing and edits.
