@@ -1,2 +1,2 @@
 # Scenes
-The environments for eac scene.
+The environments for each scene.
