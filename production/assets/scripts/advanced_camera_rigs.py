@@ -8,12 +8,12 @@
 bl_info = {
     "name": "Advanced Camera Rigs",
     "author": "John Roper",
-    "version": (17, 0,),
+    "version": (16, 5,),
     "blender": (2, 74, 0),
     "location": "Add > Armature",
     "description": "Adds advanced camera rigs",
     "warning": "",
-    "wiki_url": "http://www.starlightgraphics.co.nf",
+    "wiki_url": "http://www.starlightgraphics.co.nf/software/documentation/advanced_camera_rigs.php",
     "category": "Rigging"}
 
 
@@ -371,7 +371,7 @@ def build_crane_rig(context):
     bpy.ops.object.armature_add()
     rig = context.active_object
 
-    # it will try to name the rig "Crane_Rig" but if that name exists it will add .000 to the name
+    # it will try to name the rig "Dolly_Rig" but if that name exists it will add .000 to the name
     if "Crane_Rig" not in context.scene.objects:
         rig.name = "Crane_Rig"
     else:
@@ -554,23 +554,24 @@ class DollyCameraUI(bpy.types.Panel):
         row = col.row()
 
         # Display Camera Properties
-        # col.label(text="Clipping:")
-        # col.prop(cam, "clip_start", text="Start")
-        # col.prop(cam, "clip_end", text="End")
-        # col.prop(cam, "type")
-        # col.prop(cam, "dof_object")
-        # if cam.dof_object is None:
-           # col.operator("add.dof_empty", text="Add DOF object")
-            # col.prop(cam, "dof_distance")xt="Add DOF Empty")
+        col.operator("stereocamera.set_stereo_camera", text="Set Stereo Camera")
+        col.label(text="Clipping:")
+        col.prop(cam, "clip_start", text="Start")
+        col.prop(cam, "clip_end", text="End")
+        col.prop(cam, "type")
+        col.prop(cam, "dof_object")
+        if cam.dof_object is None:
+            col.operator("add.dof_empty", text="Add DOF Empty")
+            col.prop(cam, "dof_distance")
         col.prop(bpy.data.objects[active_cam], "hide_select", text="Lock Camera Select")
         col.operator("add.marker_bind", text="Add Marker and Bind")
         if bpy.context.scene.camera.name != active_cam:
             col.operator("scene.make_camera_active", text="Make Active Camera", icon='CAMERA_DATA')
-        # col.prop(context.active_object, 'show_x_ray', toggle=False, text='X Ray')
-        # col.prop(cam, "show_limits")
-        # col.prop(cam, "show_title_safe")
-        # col.prop(cam, "show_passepartout")
-        # col.prop(cam, "passepartout_alpha")
+        col.prop(context.active_object, 'show_x_ray', toggle=False, text='X Ray')
+        col.prop(cam, "show_limits")
+        col.prop(cam, "show_title_safe")
+        col.prop(cam, "show_passepartout")
+        col.prop(cam, "passepartout_alpha")
 
         # Camera Lens
         col.label(text="Focal Length:")
@@ -612,23 +613,24 @@ class CraneCameraUI(bpy.types.Panel):
         row = col.row()
 
         # Display Camera Properties
-        # col.label(text="Clipping:")
-        # col.prop(cam, "clip_start", text="Start")
-        # col.prop(cam, "clip_end", text="End")
-        # col.prop(cam, "type")
-        # col.prop(cam, "dof_object")
-        # if cam.dof_object is None:
-           # col.operator("add.dof_empty", text="Add DOF object")
-            # col.prop(cam, "dof_distance")
+        col.operator("stereocamera.set_stereo_camera", text="Set Stereo Camera")
+        col.label(text="Clipping:")
+        col.prop(cam, "clip_start", text="Start")
+        col.prop(cam, "clip_end", text="End")
+        col.prop(cam, "type")
+        col.prop(cam, "dof_object")
+        if cam.dof_object is None:
+            col.operator("add.dof_empty", text="Add DOF object")
+            col.prop(cam, "dof_distance")
         col.prop(bpy.data.objects[active_cam], "hide_select", text="Lock Camera Select")
         col.operator("add.marker_bind", text="Add Marker and Bind")
         if bpy.context.scene.camera.name != active_cam:
             col.operator("scene.make_camera_active", text="Make Active Camera", icon='CAMERA_DATA')
-        # col.prop(context.active_object, 'show_x_ray', toggle=False, text='X Ray')
-        # col.prop(cam, "show_limits")
-        # col.prop(cam, "show_title_safe")
-        # col.prop(cam, "show_passepartout")
-        # col.prop(cam, "passepartout_alpha")
+        col.prop(context.active_object, 'show_x_ray', toggle=False, text='X Ray')
+        col.prop(cam, "show_limits")
+        col.prop(cam, "show_title_safe")
+        col.prop(cam, "show_passepartout")
+        col.prop(cam, "passepartout_alpha")
 
         # Camera Lens
         col.label(text="Focal Length:")
@@ -639,9 +641,9 @@ class CraneCameraUI(bpy.types.Panel):
         col.prop(pose_bones["CTRL"], '["Lock"]', text="Aim Lock", slider=True)
 
         # make this camera active if more than one camera exists
-        if cam != bpy.context.scene.camera:
+        # if cam != bpy.context.scene.camera:
 
-        col.op(, text="Make Active Camera", toggle=True)
+        # col.op(, text="Make Active Camera", toggle=True)
 
         box = layout.box()
         col = box.column()
